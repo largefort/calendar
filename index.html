@@ -25,6 +25,13 @@
       text-align: center;
       padding: 10px;
     }
+    .days-table {
+      margin: 0 auto;
+    }
+    .days-table th {
+      background-color: #333;
+      color: #fff;
+    }
   </style>
 </head>
 <body>
@@ -49,6 +56,18 @@
       <tbody id="calendar-body"></tbody>
     </table>
   </div>
+  
+  <table class="days-table">
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+    </tr>
+  </table>
 
   <script>
     const calendarBody = document.getElementById("calendar-body");
